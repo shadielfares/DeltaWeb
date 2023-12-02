@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+@keyframes wait_a_little{
+  transition-delay: 5ms;
+}
+body2{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position:relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+button {
+  padding: .5em 3em;
+  font-size: 10px;
+  text-transform: none;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(31, 58, 208, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  width: 100;
+  color: white;
+  z-index: 99;
+  width: 100%;
+  padding: 120px 0px;
+
+  display: grid;
+  position: absolute;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+greeting {
+  font-family: "Vollkorn", serif;
+  font-size: 84px;
+}
+name {
+  color: rgb(134, 144, 233);
+  font-family: "Vollkorn", serif;
+
+  font-size: 84px;
+}
+
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-family: 'Hedvig Letters Serif', serif;  bottom: 0;
+  
+}
+
+
+
+button {
+  line-height: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.4s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 5px;
+  white-space: normal;
+  font-weight: 700;
+  color: rgb(30, 49, 68);
+  box-shadow: inset 0 0 0 2px rgb(10, 10, 42);
+  background-color: rgb(25, 26, 45);
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* Or this way if the page doesn't have to uncenter with changing screen size */
+/* .parent {
+     display: flex;
+     place-items: center;
+ }  */
+
+.child {
+  text-align: center;   /* If we want the child element's content horiz centered within its own container */
+}
+.hidden {
+  opacity: 0;
+  filter: blur(5x);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 49, 113);
+}
+
+.button:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.button:nth-child(3) {
+  transition-delay: 400ms;
+}
+.button:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.button:nth-child(5) {
+  transition-delay: 1000ms;
+}
+.button:nth-child(6) {
+  transition-delay: 1350ms;
+}
+
+body{
+  overflow-x: hidden;
+}
