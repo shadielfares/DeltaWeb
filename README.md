@@ -1,5 +1,6 @@
+## Delta Web
 Through this hacker aesthetic website, 
-I tried to show-off the cool aspects of being apart of Deltahacks, 
+I tried to show off the cool aspects of being apart of Deltahacks, 
 being able to create websites, 
 and how to share the knowledge all at once.
 
