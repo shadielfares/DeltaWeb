@@ -25,8 +25,4 @@ Visit the site here: [Delta Web](https://shadielfares.github.io/DeltaWeb/) and n
 Feedback and contributions are welcome! If you have suggestions or resources to share, feel free to reach out.
 
 ### Author
-- Sajroop Mann (Shadi)
-
----
-
-Let me know if there are any other changes you’d like!
+- Shadi. E
